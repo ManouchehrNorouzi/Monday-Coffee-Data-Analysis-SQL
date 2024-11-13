@@ -161,10 +161,6 @@ ORDER BY ci.city_name DESC;
 
 -- Q.9 Monthly Sales Growth
 -- Calculate the percentage growth (or decline) in sales over different time periods (monthly) by each city
-select * from sales
-select * from products
-select * from city
-select * from customers
 
 
 WITH monthly_sales_growth AS (
